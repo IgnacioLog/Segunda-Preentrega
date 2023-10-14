@@ -10,7 +10,7 @@ const { formatPrice } = require('../server/utils');
 const mongoose = require('mongoose');
 
 // Conexión a MongoDB
-mongoose.connect('mongodb+srv://coderhouse:coderhouse', {
+mongoose.connect('mongodb+srv://coderhouse:coderhouse@cluster0.qgm1sdk.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
